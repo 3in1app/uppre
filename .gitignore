@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules/
+npm-debug.log*
+.DS_Store
+*.tmp
+# Dữ liệu khách, key, phiên đăng nhập và log nội bộ — tuyệt đối không commit
+/data/*.json
+/data/*.log
+!/data/.gitkeep
+# Ảnh do admin tải lên khi website đang chạy
+/public/uploads/widget-frames/*
+!/public/uploads/widget-frames/.gitkeep
